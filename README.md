@@ -32,7 +32,7 @@ O método eleva a matriz a passos, ou seja, a matriz elevada ao cubo representar
 Matriz[i][j] será a quantidade de caminhos possíveis de 3 passos para sair da cidade i e chegar na cidade j.  
 
 **public int calculaCaminhoMinimo(char orig, char dest):**
-O método recebe duas cidades e retorna o menor caminho entre elas usando o algoritmo de Floyd Warshall
+O método recebe duas cidades e retorna o menor caminho entre elas usando o algoritmo de Floyd Warshall.
 
 ## Executar
 
