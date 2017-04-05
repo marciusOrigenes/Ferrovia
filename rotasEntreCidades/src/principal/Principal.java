@@ -136,7 +136,7 @@ public class Principal {
 		dist = ferrovia.calculaCaminhoMinimo('B', 'B');
 		System.out.println("Saída # 9: "+dist);
 		
-		/*Para o item 10 havia soluções melhores mas o meu tempo se esgotou.*/
+		/*Para o item 10 havia soluções melhores mas o meu tempo se esgotou. Então apaguei o caminho que estava seguindo e enviei a solução abaixo pois esta está funcionando.*/
 		vet.clear();
 		int result = 0, cont = 0;
 		vet.add('C');
