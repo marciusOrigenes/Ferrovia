@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
-import viaFerrea.Ferrovias;
+import viaFerrea.Ferrovia;
 
 public class Principal {
 
@@ -42,7 +42,7 @@ public class Principal {
 			arquivo.close();
 		}
 
-		Ferrovias ferrovia = Ferrovias.getInstance(contaTotalCidades.size());
+		Ferrovia ferrovia = Ferrovia.getInstance(contaTotalCidades.size());
 
 		try {
 			Character i, j;
@@ -136,6 +136,7 @@ public class Principal {
 		dist = ferrovia.calculaCaminhoMinimo('B', 'B');
 		System.out.println("Saída # 9: "+dist);
 		
+		/*Para o item 10 havia soluções melhores mas o meu tempo se esgotou.*/
 		vet.clear();
 		int result = 0, cont = 0;
 		vet.add('C');
