@@ -15,6 +15,7 @@ Nesta classe se encontra o método __main__.
 
 ### Ferrovia
 Nesta classe utilizamos grafo para representar a ferrovia e para representar o grafo com seus nós e arestas utilizamos matriz de adjacentes. Portanto, métodos que utilizem tal matriz estão dentro desta classe, ou seja, todos, visto que todos os métodos utilizados utilizam operações na matriz, que é a nossa ferrovia, e estão imergidos neste contexto.
+Utilizei o Design Pattern Singleton visto que em nosso contexto só existe uma ferrovia e este padrão garante que só exista uma instância desta.
 
 _Temos_ :
 
